@@ -1,0 +1,30 @@
+System Infomation Script: Write shell scripts to print system information.
+
+#!/bin/bash
+lscpu
+
+Arithmetic Calculation: Write shell script to perform basic mathematical calculation.
+
+#!/bin/bash
+
+echo "Enter Number 1: "
+read a
+
+echo "Enter Number 2: "
+read b
+
+echo "Enter Operator: "
+read op
+
+
+
+Redirect Output: Use redirection operators to store the output of commands.
+
+#!/bin/bash
+
+echo "Enter a Command: "
+read command
+
+output=$($command)
+
+echo "$command: $output" >> commands.md
