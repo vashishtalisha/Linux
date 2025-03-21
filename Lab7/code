@@ -1,0 +1,13 @@
+Implement chown, chmod command with their options
+
+CHOWN:
+
+chown user:group file.txt
+chown -R user:group directory/
+chown -R -c user:group directory/
+
+CHMOD:
+
+chmod 755 file.txt
+chmod -R 755 directory/
+chmod -R -c 755 directory/
